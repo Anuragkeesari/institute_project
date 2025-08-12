@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: process.env.sri_rama_chiranjeevi || "/institute_project"
+  base: process.env.VITE_BASE_PATH || "/institute_project"
 })
